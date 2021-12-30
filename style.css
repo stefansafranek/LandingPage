@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
 }
 
 .logo{
@@ -16,12 +17,16 @@ body{
 
 .header-links{
     display: flex;
-    gap: 18px;
+    padding: 18px;
     list-style: none;
     margin: 30px;
     align-self: center;
     font-size: 24px;
     color:white;
+}
+
+.link{
+    padding-right:18px;
 }
 
 .hero-img{
@@ -50,6 +55,10 @@ body{
     margin:0px;
 }
 
+.hero-p{
+    padding-right:20px;
+}
+
 .sub{
     width:100px;
     text-align: center;
@@ -57,4 +66,31 @@ body{
     color:white;
     border-radius: 8px;
     padding:10px;
+}
+
+.infobar{
+    display:flex;
+    padding:90px;
+    justify-content: center;
+    background: rgb(177, 177, 177);
+}
+
+.infopic{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info{
+    height:150px;
+    width: auto;
+    border: solid 3px rgb(25, 97, 121);
+    margin:30px;
+    border-radius: 15px;;
+    
+}
+
+.infotext{
+    text-align: center;
+    margin:10px;
 }
