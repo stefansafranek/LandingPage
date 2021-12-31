@@ -72,6 +72,7 @@ body{
     display:flex;
     padding:90px;
     justify-content: center;
+    color:black;
 }
 
 .infopic{
@@ -104,6 +105,7 @@ body{
 .qtext{
     align-self: center;
     font-size:40px;
+    color:white;
 }
 
 .qname {
@@ -111,6 +113,7 @@ body{
     font-style: italic;
     font-weight:700;
     padding-right: 60px;
+    color:white;
 }
 
 .footer{
@@ -140,4 +143,8 @@ body{
     height: 40px;
     line-height:40px;
     align-self: center;
+}
+
+.happy{
+    text-decoration: none;
 }
