@@ -86,8 +86,8 @@ body{
     width: auto;
     border: solid 3px rgb(25, 97, 121);
     margin:30px;
-    border-radius: 15px;;
-    
+    border-radius: 15px;
+    align-self:center;
 }
 
 .infotext{
