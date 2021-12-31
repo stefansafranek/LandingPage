@@ -72,7 +72,6 @@ body{
     display:flex;
     padding:90px;
     justify-content: center;
-    background: rgb(177, 177, 177);
 }
 
 .infopic{
@@ -93,4 +92,52 @@ body{
 .infotext{
     text-align: center;
     margin:10px;
+}
+
+.quote{
+    background: rgb(177,177,177);
+    display:flex;
+    flex-direction: column;
+    padding: 120px 50px;
+}
+
+.qtext{
+    align-self: center;
+    font-size:40px;
+}
+
+.qname {
+    align-self: flex-end;
+    font-style: italic;
+    font-weight:700;
+    padding-right: 60px;
+}
+
+.footer{
+    display:flex;
+    background: rgb(23, 110, 209);
+    color: white;
+    margin: 120px 0px;
+    padding: 50px
+}
+
+.ftitle{
+    font-weight:600;
+    font-size: 32px;
+}
+
+.fsubtext{
+    font-size:14px;
+    color:rgb(187, 187, 187)
+}
+
+.fbutton{
+    border: solid 3px white;
+    border-radius: 15px;
+    padding:0px 20px;
+    margin-left: 80px;
+    background:rgb(23, 110, 209);
+    height: 40px;
+    line-height:40px;
+    align-self: center;
 }
